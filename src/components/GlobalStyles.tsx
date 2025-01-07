@@ -2,9 +2,6 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
  :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
 //Colors:  
   --primary-soft: hsl(122,46%,67%,100%);
@@ -35,10 +32,11 @@ const GlobalStyles = createGlobalStyle`
   --green-gray-700: hsl(124,33%,26%,100%);
   --green-gray-800: hsl(124,43%,16%,100%);
   --green-gray-900: hsl(124,100%,8%,100%);
-
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   background-color:wheat;
   margin: 0;
   display: flex;
@@ -47,7 +45,6 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
-
 `
 
 export default GlobalStyles;
