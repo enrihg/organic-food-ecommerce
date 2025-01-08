@@ -1,6 +1,7 @@
+import GlobalStyles from './components/GlobalStyles'
 import styled from 'styled-components'
 import Navbar from './components/Navbar'
-import GlobalStyles from './components/GlobalStyles'
+import Footer from './components/Footer'
 
 function App() {
   const StyledApp = styled.div`
@@ -12,6 +13,7 @@ function App() {
       <GlobalStyles />
       <StyledApp>
         <Navbar />
+        <Footer/>
       </StyledApp>
     </>
   )

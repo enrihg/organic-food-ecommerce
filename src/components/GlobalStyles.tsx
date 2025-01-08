@@ -1,7 +1,16 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
- :root {
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+:root {
 
 //Colors:  
   --primary-soft: hsl(122,46%,67%,100%);
@@ -36,7 +45,7 @@ const GlobalStyles = createGlobalStyle`
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   background-color:wheat;
   margin: 0;
   display: flex;
