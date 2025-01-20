@@ -11,7 +11,7 @@ function Newsletter() {
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
-    background-color: var(--gray-50);  
+    background-color: var(--gray-100);  
     color: var(--gray-400);
 
     >:first-child {

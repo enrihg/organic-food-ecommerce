@@ -1,6 +1,7 @@
 import GlobalStyles from './components/GlobalStyles'
 import styled from 'styled-components'
 import Navbar from './components/Navbar'
+import FollowUs from './components/FollowUs'
 import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
 
@@ -14,8 +15,9 @@ function App() {
       <GlobalStyles />
       <StyledApp>
         <Navbar />
-        <Newsletter/>
-        <Footer/>
+        <FollowUs />
+        <Newsletter />
+        <Footer />
       </StyledApp>
     </>
   )
